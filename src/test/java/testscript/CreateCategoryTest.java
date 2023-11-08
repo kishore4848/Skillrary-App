@@ -16,7 +16,7 @@ public class CreateCategoryTest  extends BaseClass{
 		home.clickCoursesTab();
 		home.clickCatagoryLink();
 		soft.assertTrue(category.getPageHeader().contains("Category"));
-		
+		//comment is added for practice in github
 		category.clickNewButton();
 		Thread.sleep(3000);
 		soft.assertEquals(addCategory.getPageHeader(), "Add New Category");
